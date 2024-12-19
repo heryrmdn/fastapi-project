@@ -27,10 +27,11 @@ This project demonstrates a simple backend API built using modern technologies a
 ├── app
 │   ├── config                            # Configuration files (e.g., database setup, settings)
 │   ├── internal                          # Application logic (features/modules)
-│   │   ├── product                       # Product-related features
-│   │   │   ├── handler                   # Request handlers (Controllers)
-│   │   │   ├── repository                # Data access logic (DAO/Repositories)
-│   │   │   └── service                   # Business logic layer (use cases)
+│   │   ├── app
+│   │   │   └── product                   # Product-related features
+│   │   │       ├── handler               # Request handlers (Controllers)
+│   │   │       ├── repository            # Data access logic (DAO/Repositories)
+│   │   │       └── service               # Business logic layer (use cases)
 │   │   ├── dto                           # Data Transfer Objects (schemas for validation)
 │   │   └── model                             # SQLAlchemy models (entities)
 │   ├── router                            # API routing (FastAPI routers)
