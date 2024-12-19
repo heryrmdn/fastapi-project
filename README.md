@@ -72,10 +72,10 @@ This project demonstrates a simple backend API built using modern technologies a
 
 | Method | Endpoint       | Description          |
 |--------|----------------|----------------------|
-| GET    | /product       | Retrieve all items  |
-| POST   | /product       | Create a new item   |
-| GET    | /product/{id}  | Retrieve an item    |
-| PUT    | /product/{id}  | Update an item      |
-| DELETE | /product/{id}  | Delete an item      |
+| GET    | /product       | Retrieve all product |
+| POST   | /product       | Create a new product |
+| GET    | /product/{id}  | Retrieve an product  |
+| PUT    | /product/{id}  | Update an product    |
+| DELETE | /product/{id}  | Delete an product    |
 
 ---
