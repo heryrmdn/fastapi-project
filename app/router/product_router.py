@@ -32,11 +32,5 @@ def updates(id: int, product: UpdateProductRequest, session: SessionDep):
 
 @product_router.delete("/product/{id}")
 def delete(id: int, session: SessionDep):
-  # product = session.get(Product, id)
-  # if product == None:
-  #   raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"product not found")
-  # session.delete(product)
-  # session.commit()
-  # return {"ok": True}
   responses = product_handler.delete(id, session)
   return responses
