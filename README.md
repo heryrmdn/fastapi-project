@@ -58,7 +58,7 @@ This project demonstrates a simple backend API built using modern technologies a
 
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt)
+   pip install -r requirements.txt
    ```
 
 4. Run the application manually using Uvicorn:
