@@ -26,7 +26,6 @@ This project demonstrates a simple backend API built using modern technologies a
 .
 ├── app
 │   ├── config                            # Configuration files (e.g., database setup, settings)
-│   │   └── config.py                     # Database and application configurations
 │   ├── internal                          # Application logic (features/modules)
 │   │   ├── product                       # Product-related features
 │   │   │   ├── handler                   # Request handlers (Controllers)
