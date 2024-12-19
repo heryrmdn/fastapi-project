@@ -27,24 +27,15 @@ This project demonstrates a simple backend API built using modern technologies a
 ├── app
 │   ├── config                            # Configuration files (e.g., database setup, settings)
 │   │   └── config.py                     # Database and application configurations
-│   ├── core                              # Core logic (e.g., utilities, shared logic)
-│   │   └── utils.py                      # Utility functions, helpers
 │   ├── internal                          # Application logic (features/modules)
 │   │   ├── product                       # Product-related features
 │   │   │   ├── handler                   # Request handlers (Controllers)
-│   │   │   │   └── product_handler.py    # Handles HTTP requests related to products
 │   │   │   ├── repository                # Data access logic (DAO/Repositories)
-│   │   │   │   └── product_repository.py # Defines CRUD operations for products
-│   │   │   ├── service                   # Business logic layer (use cases)
-│   │   │   │   └── product_service.py    # Defines the business rules for products
-│   │   │   └── dto                       # Data Transfer Objects (schemas for validation)
-│   │   │       └── product_dto.py        # Pydantic models for product validation
-│   │   └── user                          # Example of another feature/module (e.g., user-related)
-│   ├── model                             # SQLAlchemy models (entities)
-│   │   └── product.py                    # SQLAlchemy model for the Product entity
+│   │   │   └── service                   # Business logic layer (use cases)
+│   │   ├── dto                           # Data Transfer Objects (schemas for validation)
+│   │   └── model                             # SQLAlchemy models (entities)
 │   ├── router                            # API routing (FastAPI routers)
-│   │   └── api.py                        # Main router that includes all API routes
-│   ├── main.py                           # Entry point for the FastAPI application
+│   └── main.py                           # Entry point for the FastAPI application
 ├── docker-compose.yml                    # Docker Compose configuration for container orchestration
 ├── requirements.txt                      # Python dependencies
 └── README.md                             # Project documentation
@@ -66,12 +57,15 @@ This project demonstrates a simple backend API built using modern technologies a
    ```
 
 3. Install dependencies:
-   ```pip install -r requirements.txt)
-   
+   ```bash
+   pip install -r requirements.txt)
+   ```
 
 4. Run the application manually using Uvicorn:
-   ```uvicorn app.main:app --host localhost --port 8001
-
+   ```bash
+   uvicorn app.main:app --host localhost --port 8001
+   ```
+   
 ---
 
 ## Example Endpoints
