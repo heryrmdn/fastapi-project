@@ -25,20 +25,20 @@ This project demonstrates a simple backend API built using modern technologies a
 ```
 .
 ├── app
-│   ├── config                            # Configuration files (e.g., database setup, settings)
-│   ├── internal                          # Application logic (features/modules)
-│   │   ├── app
-│   │   │   └── product                   # Product-related features
-│   │   │       ├── handler               # Request handlers (Controllers)
-│   │   │       ├── repository            # Data access logic (DAO/Repositories)
-│   │   │       └── service               # Business logic layer (use cases)
-│   │   ├── dto                           # Data Transfer Objects (schemas for validation)
-│   │   └── model                             # SQLAlchemy models (entities)
-│   ├── router                            # API routing (FastAPI routers)
-│   └── main.py                           # Entry point for the FastAPI application
-├── docker-compose.yml                    # Docker Compose configuration for container orchestration
-├── requirements.txt                      # Python dependencies
-└── README.md                             # Project documentation
+│   ├── config                   # Configuration files (e.g., database setup, settings)
+│   ├── internal                          
+│   │   ├── app                  # Application logic (features/modules)
+│   │   │   └── product          # Product-related features
+│   │   │       ├── handler      # Request handlers (Controllers)
+│   │   │       ├── repository   # Data access logic (DAO/Repositories)
+│   │   │       └── service      # Business logic layer (use cases)
+│   │   ├── dto                  # Data Transfer Objects (schemas for validation)
+│   │   └── model                # SQLAlchemy models (entities)
+│   ├── router                   # API routing (FastAPI routers)
+│   └── main.py                  # Entry point for the FastAPI application
+├── docker-compose.yml           # Docker Compose configuration for container orchestration
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
 ```
 
 ---
